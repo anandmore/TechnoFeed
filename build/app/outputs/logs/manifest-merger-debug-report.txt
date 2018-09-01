@@ -4,6 +4,8 @@ ADDED from /home/code_b1ooded/Projects/technofeed/android/app/src/main/AndroidMa
 INJECTED from /home/code_b1ooded/Projects/technofeed/android/app/src/main/AndroidManifest.xml:1:1-39:12
 INJECTED from /home/code_b1ooded/Projects/technofeed/android/app/src/main/AndroidManifest.xml:1:1-39:12
 INJECTED from /home/code_b1ooded/Projects/technofeed/android/app/src/main/AndroidManifest.xml:1:1-39:12
+MERGED from [:url_launcher] /home/code_b1ooded/Projects/technofeed/build/url_launcher/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-14:12
+MERGED from [:share] /home/code_b1ooded/Projects/technofeed/build/share/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-7:12
 INJECTED from /home/code_b1ooded/Projects/technofeed/android/app/src/main/AndroidManifest.xml:1:1-39:12
 INJECTED from /home/code_b1ooded/Projects/technofeed/android/app/src/main/AndroidManifest.xml:1:1-39:12
 INJECTED from /home/code_b1ooded/Projects/technofeed/android/app/src/main/AndroidManifest.xml:1:1-39:12
@@ -27,6 +29,8 @@ ADDED from /home/code_b1ooded/Projects/technofeed/android/app/src/main/AndroidMa
 		ADDED from /home/code_b1ooded/Projects/technofeed/android/app/src/main/AndroidManifest.xml:8:22-64
 application
 ADDED from /home/code_b1ooded/Projects/technofeed/android/app/src/main/AndroidManifest.xml:15:5-38:19
+MERGED from [:url_launcher] /home/code_b1ooded/Projects/technofeed/build/url_launcher/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-12:19
+MERGED from [:url_launcher] /home/code_b1ooded/Projects/technofeed/build/url_launcher/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-12:19
 	android:label
 		ADDED from /home/code_b1ooded/Projects/technofeed/android/app/src/main/AndroidManifest.xml:17:9-35
 	android:icon
@@ -67,6 +71,10 @@ uses-sdk
 INJECTED from /home/code_b1ooded/Projects/technofeed/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /home/code_b1ooded/Projects/technofeed/android/app/src/main/AndroidManifest.xml
 INJECTED from /home/code_b1ooded/Projects/technofeed/android/app/src/main/AndroidManifest.xml
+MERGED from [:url_launcher] /home/code_b1ooded/Projects/technofeed/build/url_launcher/intermediates/manifests/full/debug/AndroidManifest.xml:5:5-44
+MERGED from [:url_launcher] /home/code_b1ooded/Projects/technofeed/build/url_launcher/intermediates/manifests/full/debug/AndroidManifest.xml:5:5-44
+MERGED from [:share] /home/code_b1ooded/Projects/technofeed/build/share/intermediates/manifests/full/debug/AndroidManifest.xml:5:5-44
+MERGED from [:share] /home/code_b1ooded/Projects/technofeed/build/share/intermediates/manifests/full/debug/AndroidManifest.xml:5:5-44
 INJECTED from /home/code_b1ooded/Projects/technofeed/android/app/src/main/AndroidManifest.xml
 INJECTED from /home/code_b1ooded/Projects/technofeed/android/app/src/main/AndroidManifest.xml
 	android:targetSdkVersion
@@ -77,3 +85,11 @@ INJECTED from /home/code_b1ooded/Projects/technofeed/android/app/src/main/Androi
 		INJECTED from /home/code_b1ooded/Projects/technofeed/android/app/src/main/AndroidManifest.xml
 		ADDED from /home/code_b1ooded/Projects/technofeed/android/app/src/main/AndroidManifest.xml
 		INJECTED from /home/code_b1ooded/Projects/technofeed/android/app/src/main/AndroidManifest.xml
+activity#io.flutter.plugins.urllauncher.UrlLauncherPlugin$WebViewActivity
+ADDED from [:url_launcher] /home/code_b1ooded/Projects/technofeed/build/url_launcher/intermediates/manifests/full/debug/AndroidManifest.xml:8:9-11:74
+	android:exported
+		ADDED from [:url_launcher] /home/code_b1ooded/Projects/technofeed/build/url_launcher/intermediates/manifests/full/debug/AndroidManifest.xml:10:13-37
+	android:theme
+		ADDED from [:url_launcher] /home/code_b1ooded/Projects/technofeed/build/url_launcher/intermediates/manifests/full/debug/AndroidManifest.xml:11:13-71
+	android:name
+		ADDED from [:url_launcher] /home/code_b1ooded/Projects/technofeed/build/url_launcher/intermediates/manifests/full/debug/AndroidManifest.xml:9:13-92
