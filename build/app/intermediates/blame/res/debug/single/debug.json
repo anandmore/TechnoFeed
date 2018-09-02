@@ -22,5 +22,9 @@
     {
         "merged": "/home/code_b1ooded/Projects/technofeed/build/app/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
         "source": "/home/code_b1ooded/Projects/technofeed/android/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/code_b1ooded/Projects/technofeed/build/app/intermediates/res/merged/debug/raw_technofeed.png.flat",
+        "source": "/home/code_b1ooded/Projects/technofeed/android/app/src/main/res/raw/technofeed.png"
     }
 ]

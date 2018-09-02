@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="gq.anandmore.technofeed"
     android:versionCode="1"
-    android:versionName="1.0.1" >
+    android:versionName="1.0.2" >
 
     <uses-sdk
         android:minSdkVersion="16"
@@ -25,7 +25,7 @@
         android:name="io.flutter.app.FlutterApplication"
         android:debuggable="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="technofeed" >
+        android:label="TechnoFeed" >
         <activity
             android:name="gq.anandmore.technofeed.MainActivity"
             android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|layoutDirection|fontScale|screenLayout|density"
