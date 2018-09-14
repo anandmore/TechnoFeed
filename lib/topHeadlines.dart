@@ -69,7 +69,7 @@ class _TopHeadlinesState extends State<TopHeadlines> {
                             String url = "${widget.provider[position]['url']}";
                             _launchURL(url);
                           },
-                          child: new Icon(Icons.launch),
+                          child: new Icon(Icons.language),
                         ),
                         new MaterialButton(
                           onPressed: () {

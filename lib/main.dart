@@ -3,6 +3,7 @@ import './topHeadlines.dart' as topHeadlines;
 import './allHeadlines.dart' as allHeadlines;
 import './newsSources.dart' as newsSources;
 import './apiService.dart' as apiService;
+import './aboutApp.dart' as aboutApp;
 
 List _topProvider, _sourceProvider, _allProvider;
 
@@ -64,7 +65,7 @@ class TabBarDemo extends StatelessWidget {
               new topHeadlines.TopHeadlines(provider: _topProvider),
               new allHeadlines.AllHeadlines(provider: _allProvider),
               new newsSources.NewsSources(provider: _sourceProvider),
-              new Icon(Icons.report, size: 111.0),
+              new aboutApp.AboutApp(),
             ],
           ),
         ),
