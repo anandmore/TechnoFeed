@@ -77,7 +77,7 @@ class _AboutAppState extends State<AboutApp> {
                   Padding(
                     padding: const EdgeInsets.fromLTRB(11.0, 0.0, 11.0, 0.0),
                     child: Image.network(
-                        "https://scontent.fbom16-1.fna.fbcdn.net/v/t1.0-9/19030223_1227788263999240_2662097946674685497_n.jpg?_nc_cat=0&oh=8d59f238f7a60d3ce68dfed369095bd4&oe=5C2EB9B1"),
+                        "https://scontent.fnag1-1.fna.fbcdn.net/v/t1.0-0/p206x206/41813775_1707333159378079_5057638631754170368_n.jpg?_nc_cat=0&oh=12938a18a6ad13a12129e6587c5f0f0c&oe=5C2D625D"),
                   ),
                   Row(
                     mainAxisAlignment: MainAxisAlignment.spaceEvenly,
@@ -137,7 +137,7 @@ class _AboutAppState extends State<AboutApp> {
               ),
             ),
             Padding(
-              padding: const EdgeInsets.all(25.0),
+              padding: const EdgeInsets.fromLTRB(0.0, 11.0, 0.0, 3.0),
               child: new Icon(Icons.build),
             ),
             new Text(

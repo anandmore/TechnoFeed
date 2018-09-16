@@ -53,7 +53,7 @@ INJECTED from /home/code_b1ooded/AndroidStudioProjects/technofeed/android/app/sr
 	xmlns:android
 		ADDED from /home/code_b1ooded/AndroidStudioProjects/technofeed/android/app/src/main/AndroidManifest.xml:1:11-69
 uses-permission#android.permission.INTERNET
-ADDED from /home/code_b1ooded/AndroidStudioProjects/technofeed/android/app/src/main/AndroidManifest.xml:8:5-66
+ADDED from /home/code_b1ooded/AndroidStudioProjects/technofeed/android/app/src/main/AndroidManifest.xml:8:5-67
 MERGED from [:google_sign_in] /home/code_b1ooded/AndroidStudioProjects/technofeed/build/google_sign_in/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-67
 MERGED from [:google_sign_in] /home/code_b1ooded/AndroidStudioProjects/technofeed/build/google_sign_in/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-67
 MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /home/code_b1ooded/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/d17e52875fe2686b53c1898b5c6fd2f8/AndroidManifest.xml:22:5-67
@@ -119,23 +119,23 @@ MERGED from [com.android.support:support-compat:26.1.0] /home/code_b1ooded/.grad
 MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/code_b1ooded/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/91c44f2ad375aaf38b99fa6398a137bd/AndroidManifest.xml:24:5-28:19
 MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/code_b1ooded/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/91c44f2ad375aaf38b99fa6398a137bd/AndroidManifest.xml:24:5-28:19
 	android:label
-		ADDED from /home/code_b1ooded/AndroidStudioProjects/technofeed/android/app/src/main/AndroidManifest.xml:17:9-35
+		ADDED from /home/code_b1ooded/AndroidStudioProjects/technofeed/android/app/src/main/AndroidManifest.xml:18:9-35
 	android:icon
-		ADDED from /home/code_b1ooded/AndroidStudioProjects/technofeed/android/app/src/main/AndroidManifest.xml:18:9-43
+		ADDED from /home/code_b1ooded/AndroidStudioProjects/technofeed/android/app/src/main/AndroidManifest.xml:17:9-43
 	android:name
 		ADDED from /home/code_b1ooded/AndroidStudioProjects/technofeed/android/app/src/main/AndroidManifest.xml:16:9-57
 activity#gq.anandmore.technofeed.MainActivity
 ADDED from /home/code_b1ooded/AndroidStudioProjects/technofeed/android/app/src/main/AndroidManifest.xml:19:9-37:20
 	android:launchMode
-		ADDED from /home/code_b1ooded/AndroidStudioProjects/technofeed/android/app/src/main/AndroidManifest.xml:21:13-43
+		ADDED from /home/code_b1ooded/AndroidStudioProjects/technofeed/android/app/src/main/AndroidManifest.xml:23:13-43
 	android:hardwareAccelerated
-		ADDED from /home/code_b1ooded/AndroidStudioProjects/technofeed/android/app/src/main/AndroidManifest.xml:24:13-47
+		ADDED from /home/code_b1ooded/AndroidStudioProjects/technofeed/android/app/src/main/AndroidManifest.xml:22:13-47
 	android:windowSoftInputMode
 		ADDED from /home/code_b1ooded/AndroidStudioProjects/technofeed/android/app/src/main/AndroidManifest.xml:25:13-55
 	android:configChanges
-		ADDED from /home/code_b1ooded/AndroidStudioProjects/technofeed/android/app/src/main/AndroidManifest.xml:23:13-137
+		ADDED from /home/code_b1ooded/AndroidStudioProjects/technofeed/android/app/src/main/AndroidManifest.xml:21:13-137
 	android:theme
-		ADDED from /home/code_b1ooded/AndroidStudioProjects/technofeed/android/app/src/main/AndroidManifest.xml:22:13-47
+		ADDED from /home/code_b1ooded/AndroidStudioProjects/technofeed/android/app/src/main/AndroidManifest.xml:24:13-47
 	android:name
 		ADDED from /home/code_b1ooded/AndroidStudioProjects/technofeed/android/app/src/main/AndroidManifest.xml:20:13-41
 meta-data#io.flutter.app.android.SplashScreenUntilFirstFrame
@@ -147,11 +147,11 @@ ADDED from /home/code_b1ooded/AndroidStudioProjects/technofeed/android/app/src/m
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
 ADDED from /home/code_b1ooded/AndroidStudioProjects/technofeed/android/app/src/main/AndroidManifest.xml:33:13-36:29
 action#android.intent.action.MAIN
-ADDED from /home/code_b1ooded/AndroidStudioProjects/technofeed/android/app/src/main/AndroidManifest.xml:34:17-68
+ADDED from /home/code_b1ooded/AndroidStudioProjects/technofeed/android/app/src/main/AndroidManifest.xml:34:17-69
 	android:name
 		ADDED from /home/code_b1ooded/AndroidStudioProjects/technofeed/android/app/src/main/AndroidManifest.xml:34:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /home/code_b1ooded/AndroidStudioProjects/technofeed/android/app/src/main/AndroidManifest.xml:35:17-76
+ADDED from /home/code_b1ooded/AndroidStudioProjects/technofeed/android/app/src/main/AndroidManifest.xml:35:17-77
 	android:name
 		ADDED from /home/code_b1ooded/AndroidStudioProjects/technofeed/android/app/src/main/AndroidManifest.xml:35:27-74
 uses-sdk

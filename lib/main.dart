@@ -1,16 +1,16 @@
 import 'package:flutter/material.dart';
 import './topHeadlines.dart' as topHeadlines;
-import './allHeadlines.dart' as allHeadlines;
+import './customHeadlines.dart' as customHeadlines;
 import './newsSources.dart' as newsSources;
 import './apiService.dart' as apiService;
 import './aboutApp.dart' as aboutApp;
 
-List _topProvider, _sourceProvider, _allProvider;
+List _topProvider, _sourceProvider, _customProvider;
 
 void main() async {
   _topProvider = await apiService.fetchTopHeadlines();
   _sourceProvider = await apiService.fetchSources();
-  _allProvider = await apiService.fetchAllHeadlines();
+  _customProvider = await apiService.fetchCustomHeadlines();
   runApp(new MyApp());
 }
 
@@ -22,12 +22,12 @@ class MyApp extends StatelessWidget {
       theme: new ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: new TabBarDemo(),
+      home: new MyTabBar(),
     );
   }
 }
 
-class TabBarDemo extends StatelessWidget {
+class MyTabBar extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -63,7 +63,7 @@ class TabBarDemo extends StatelessWidget {
           body: TabBarView(
             children: [
               new topHeadlines.TopHeadlines(provider: _topProvider),
-              new allHeadlines.AllHeadlines(provider: _allProvider),
+              new customHeadlines.CustomHeadlines(provider: _customProvider),
               new newsSources.NewsSources(provider: _sourceProvider),
               new aboutApp.AboutApp(),
             ],
