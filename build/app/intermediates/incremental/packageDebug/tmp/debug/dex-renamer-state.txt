@@ -1,4 +1,0 @@
-#Sun Sep 16 13:46:13 IST 2018
-base.0=/home/code_b1ooded/AndroidStudioProjects/technofeed/build/app/intermediates/transforms/dexMerger/debug/0
-path.0=classes.dex
-renamed.0=classes.dex
