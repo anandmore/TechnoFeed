@@ -23,7 +23,6 @@ class _AllTabState extends State<AllTab> {
         _articles = _body['articles'];
       });
     }
-    print('Loaded ${_articles.length}');
   }
 
   void _launchURL(String url) async {
@@ -36,6 +35,7 @@ class _AllTabState extends State<AllTab> {
 
   @override
   void initState() {
+    super.initState();
     _fetchArticles();
   }
 

@@ -21,7 +21,6 @@ class _SourceTabState extends State<SourceTab> {
         _sources = _body['sources'];
       });
     }
-    print('Loaded ${_sources.length}');
   }
 
   void _launchURL(String url) async {
@@ -34,6 +33,7 @@ class _SourceTabState extends State<SourceTab> {
 
   @override
   void initState() {
+    super.initState();
     _fetchSources();
   }
 

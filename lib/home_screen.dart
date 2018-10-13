@@ -3,6 +3,7 @@ import './top_tab.dart';
 import './all_tab.dart';
 import './source_tab.dart';
 import './about_tab.dart';
+import './search_screen.dart';
 
 class HomeScreen extends StatefulWidget {
   @override
@@ -42,6 +43,13 @@ class _HomeScreenState extends State<HomeScreen> {
         ),
         backgroundColor: Colors.blue,
         centerTitle: true,
+      ),
+      floatingActionButton: FloatingActionButton(
+        child: Icon(Icons.search),
+        onPressed: () {
+          Navigator.push(context,
+              MaterialPageRoute(builder: (context) => (SearchScreenTab())));
+        },
       ),
       bottomNavigationBar: Theme(
           data: Theme.of(context).copyWith(

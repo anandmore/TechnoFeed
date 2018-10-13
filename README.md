@@ -1,6 +1,6 @@
-# TechnoFeed v1.0.5
+# TechnoFeed v1.0.6
 
-A new Flutter project.
+A material news reader app.
 
 ## Getting Started
 

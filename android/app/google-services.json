@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "133584634441",
+    "firebase_url": "https://anandmore-2018.firebaseio.com",
+    "project_id": "anandmore-2018",
+    "storage_bucket": "anandmore-2018.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:133584634441:android:838ad2c6d19c2161",
+        "android_client_info": {
+          "package_name": "com.example.technofeed"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "133584634441-hrq0mfqapbh5madlrvn18qq3eb8uoi4u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.technofeed",
+            "certificate_hash": "777c560464878f2e0fb7c6e6847960cf2cc20335"
+          }
+        },
+        {
+          "client_id": "133584634441-af77crmin6kmrs03dk44cd3o01n945fs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAhQ7KOHIXj5JBX-G_wscsIUq6w-ZdD_Zg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "133584634441-af77crmin6kmrs03dk44cd3o01n945fs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
