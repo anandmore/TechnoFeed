@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import './top_tab.dart';
 import './all_tab.dart';
+import './custom_tab.dart';
 import './source_tab.dart';
 import './about_tab.dart';
 import './search_screen.dart';
@@ -76,7 +77,13 @@ class _HomeScreenState extends State<HomeScreen> {
       body: PageView(
         controller: _tabController,
         onPageChanged: onTabChanged,
-        children: <Widget>[TopTab(), AllTab(), SourceTab(), AboutTab()],
+        children: <Widget>[
+          TopTab(),
+          AllTab(),
+          CustomTab(),
+          SourceTab(),
+          AboutTab()
+        ],
       ),
     );
   }
@@ -91,6 +98,7 @@ class TabItem {
 const List<TabItem> TabItems = <TabItem>[
   TabItem(title: 'Top Headlines', icon: Icons.whatshot),
   TabItem(title: 'All Headlines', icon: Icons.format_align_left),
+  TabItem(title: 'Custom Headlines', icon: Icons.tv),
   TabItem(title: 'News Sources', icon: Icons.category),
   TabItem(title: 'About the App', icon: Icons.info_outline),
 ];

@@ -18,7 +18,7 @@ class _SearchScreenTabState extends State<SearchScreenTab> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.blueGrey,
+      backgroundColor: Colors.white,
       body: Padding(
         padding: const EdgeInsets.fromLTRB(15.0, 351.0, 15.0, 0.0),
         child: Column(
