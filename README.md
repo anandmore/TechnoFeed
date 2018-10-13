@@ -1,4 +1,4 @@
-# TechnoFeed v1.0.7
+# TechnoFeed
 
 A material news reader app.
 
