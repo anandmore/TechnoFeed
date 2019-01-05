@@ -17,7 +17,7 @@ class _ResultScreenState extends State<ResultScreen> {
   List<dynamic> _articles = List<dynamic>();
   void _fetchArticles() async {
     var url =
-        'https://newsapi.org/v2/everything?q=${widget.query}&apiKey=bac453c447ed4a2392ef426749bd4028';
+        'https://newsapi.org/v2/everything?q=${widget.query}&apiKey=9ad0ecb9fa6d497fb026a877f717ad0a';
     var response = await http.get(url);
     if (response.statusCode == 200) {
       var _body = jsonDecode(response.body);

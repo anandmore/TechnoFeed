@@ -23,6 +23,7 @@ dependencies:
   timeago: ^2.0.8
   share: ^0.5.3
   firebase_auth: ^0.5.20
+  http: ^0.12.0
 
 dev_dependencies:
   flutter_test:
